@@ -11,7 +11,7 @@ class main1:
         print("--------------welcome to python billing system--------------")
         ch = input("are u a existing customer(yes/no)\n")
         if ch == 'yes' or ch == 'Yes':
-        #redirects to newinvoice class/package
+        #redirects to newinvoice class/package to create invoice for existing user
             from newinvoice import NewInvoice
             NewInvoice()
         else:
